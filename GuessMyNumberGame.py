@@ -27,7 +27,7 @@ def guessMyNumber():
 endStatement = "continue"
 while endStatement == "continue":
     guessMyNumber()
-    endStatement = input('Type "continue" to play again or anything else to quit.')
+    endStatement = input('Type "continue" to play again or anything else to quit. ')
     
     if endStatement == "anything else":
         print("Very funny. Goodbye.")
